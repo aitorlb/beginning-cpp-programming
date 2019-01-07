@@ -58,8 +58,8 @@ Additional functionality if you wish to extend this program.
 - come up with your own ideas!
 
 Good luck!
-
 */
+
 #include <iostream>
 #include <vector>
 
