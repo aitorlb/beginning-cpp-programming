@@ -131,14 +131,14 @@ void display_list(const vector<int> &list) {
 
 int get_number() {
     int num {};
-    cout << "Enter a number: ";
+    cout << "Enter a number other than zero: ";
     if (cin >> num) {
         cin.ignore(10000, '\n');
         return num;
     } else {
         cin.clear();
         cin.ignore(10000, '\n');
-        cout << "You must enter a number other than zero" << endl;
+        cout << "You must enter a valid number" << endl;
         return false;
     }
 }
