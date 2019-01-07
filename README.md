@@ -1,6 +1,6 @@
 # Beginning C++ Programming - From Beginner to Beyond
 
-This repository contains the assignments of [this](https://www.udemy.com/beginning-c-plus-plus-programming/) Udemy course.
+This repository contains the assignments of the [Udemy course](https://www.udemy.com/beginning-c-plus-plus-programming/) teached by [Frank J. Mitropoulos, Ph.D.](http://scis.nova.edu/~mitrof/).
 
 - Section 6 - Variables and Constants
 - Section 7 - Arrays and Vectors
