@@ -33,7 +33,10 @@
 
 # CodeLite
 **/.codelite
+Debug/
 *.workspace
+*.project
+*.mk
 *.db
 Makefile
-
+s13-challenge.txt
