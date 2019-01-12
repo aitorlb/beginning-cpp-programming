@@ -117,6 +117,7 @@ void display_menu() {
 char get_choice() {
     string input {};
     getline(cin, input);
+    if (input == "") input = "empty";
     return toupper(input.at(0));
 }
 
