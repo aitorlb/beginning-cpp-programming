@@ -16,7 +16,7 @@ void Menu::display()
     std::cout << "P - Print movies\n" ;
     std::cout << "A - Add movie\n";
     std::cout << "D - Delete movie\n";
-    std::cout << "I - Increment view count\n";
+    std::cout << "I - Increment watch count\n";
     std::cout << "Q - Quit\n";
     std::cout << "\nEnter your choice: ";
 }
@@ -26,8 +26,7 @@ char Menu::get_choice()
     std::string input {};
     std::getline(std::cin, input);
     if (input == "") input = "empty";
-    choice = toupper(input.at(0));
-    return choice;
+    return toupper(input.at(0));
 }
 
 std::string Menu::get_name()

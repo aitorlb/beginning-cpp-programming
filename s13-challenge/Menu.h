@@ -13,8 +13,6 @@ public:
     std::string get_name();
     std::string get_rating();
     int get_watched();
-private:
-    char choice {};
 };
 
 #endif // MENU_H

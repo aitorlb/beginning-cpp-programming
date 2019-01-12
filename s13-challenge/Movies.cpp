@@ -72,9 +72,10 @@ void Movies::display() const
     if (movies.empty()) {
         std::cout << "Sorry, no movies to display" <<  std::endl;
     } else {
-        std::cout << "\n===================================" <<  std::endl;
+        std::cout << "\n===================================\n";
+        std::cout << "    Name | Rating | Watch Count\n\n";
         for (const auto& m : movies)
             m->display();
-        std::cout << "===================================\n" <<  std::endl;
+        std::cout << "===================================\n";
     }
 }
